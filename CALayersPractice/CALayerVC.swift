@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CALayerVC: UIViewController {
 
     @IBOutlet weak var viewForLayer: UIView!
     
@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         layer.borderColor = UIColor.red.cgColor
         layer.shadowOpacity = 0.7
         layer.shadowRadius = 10
-        layer.contents = UIImage(named: "star")!.cgImage
+        layer.shadowOffset = CGSize(width: 0, height: 3)
+        layer.contents = UIImage(named: "bolt")!.cgImage
         layer.contentsGravity = .center
     }
 
