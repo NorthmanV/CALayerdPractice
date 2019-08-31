@@ -46,6 +46,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="toCALayer" id="yEe-nl-KtH"/>
                         <segue destination="dzU-Ln-UFT" kind="show" identifier="toCAScrollLayerVC" id="6cs-Nt-PjZ"/>
+                        <segue destination="SIX-ce-Ou2" kind="show" identifier="toCATextLayerVC" id="7s0-1H-xGu"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYs-Tf-ctS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -161,6 +162,36 @@
                 </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="744.92753623188412" y="1149.1071428571429"/>
+        </scene>
+        <!--CATextLayer-->
+        <scene sceneID="hpc-2P-nxx">
+            <objects>
+                <viewController title="CATextLayer" id="SIX-ce-Ou2" customClass="CATextLayerVC" customModule="CALayersPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f2m-QG-dKS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YB6-ke-V2y">
+                                <rect key="frame" x="16" y="240" width="382" height="522"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fhQ-ko-etD" firstAttribute="trailing" secondItem="YB6-ke-V2y" secondAttribute="trailing" constant="16" id="FW9-R1-toK"/>
+                            <constraint firstItem="YB6-ke-V2y" firstAttribute="leading" secondItem="fhQ-ko-etD" secondAttribute="leading" constant="16" id="Fmg-Vo-3MI"/>
+                            <constraint firstItem="YB6-ke-V2y" firstAttribute="top" secondItem="fhQ-ko-etD" secondAttribute="top" constant="100" id="K9j-ak-Pxg"/>
+                            <constraint firstItem="fhQ-ko-etD" firstAttribute="bottom" secondItem="YB6-ke-V2y" secondAttribute="bottom" constant="100" id="cXZ-U8-iJ1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fhQ-ko-etD"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewForTextLayer" destination="YB6-ke-V2y" id="bvs-wZ-4es"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tkz-no-N9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="744.92753623188412" y="1863.6160714285713"/>
         </scene>
     </scenes>
     <resources>

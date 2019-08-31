@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8744FB4E231A7C0B00F5B661 /* CATextLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744FB4D231A7C0B00F5B661 /* CATextLayerVC.swift */; };
 		87C9A12E2311545C00E6FFB0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9A12D2311545C00E6FFB0 /* MainVC.swift */; };
 		87C9A1302311576C00E6FFB0 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9A12F2311576C00E6FFB0 /* CellInfo.swift */; };
 		87C9A13223115CE000E6FFB0 /* CAScrollLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9A13123115CE000E6FFB0 /* CAScrollLayerVC.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8744FB4D231A7C0B00F5B661 /* CATextLayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATextLayerVC.swift; sourceTree = "<group>"; };
 		87C9A12D2311545C00E6FFB0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		87C9A12F2311576C00E6FFB0 /* CellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
 		87C9A13123115CE000E6FFB0 /* CAScrollLayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAScrollLayerVC.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				87ECD803230DBF7D004BBC01 /* CALayerVC.swift */,
 				87C9A13123115CE000E6FFB0 /* CAScrollLayerVC.swift */,
 				87C9A1332311671700E6FFB0 /* ScrollingView.swift */,
+				8744FB4D231A7C0B00F5B661 /* CATextLayerVC.swift */,
 				87ECD805230DBF7D004BBC01 /* Main.storyboard */,
 				87ECD808230DBF7F004BBC01 /* Assets.xcassets */,
 				87ECD80A230DBF7F004BBC01 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				87C9A12E2311545C00E6FFB0 /* MainVC.swift in Sources */,
 				87ECD802230DBF7D004BBC01 /* AppDelegate.swift in Sources */,
 				87C9A13223115CE000E6FFB0 /* CAScrollLayerVC.swift in Sources */,
+				8744FB4E231A7C0B00F5B661 /* CATextLayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
