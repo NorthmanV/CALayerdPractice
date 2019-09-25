@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8744FB4E231A7C0B00F5B661 /* CATextLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744FB4D231A7C0B00F5B661 /* CATextLayerVC.swift */; };
+		8744FB502323B70B00F5B661 /* AVPlayerLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744FB4F2323B70B00F5B661 /* AVPlayerLayerVC.swift */; };
+		875468F3233BE39C00D3B36C /* diamonds.mov in Resources */ = {isa = PBXBuildFile; fileRef = 875468F2233BE39C00D3B36C /* diamonds.mov */; };
 		87C9A12E2311545C00E6FFB0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9A12D2311545C00E6FFB0 /* MainVC.swift */; };
 		87C9A1302311576C00E6FFB0 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9A12F2311576C00E6FFB0 /* CellInfo.swift */; };
 		87C9A13223115CE000E6FFB0 /* CAScrollLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9A13123115CE000E6FFB0 /* CAScrollLayerVC.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		8744FB4D231A7C0B00F5B661 /* CATextLayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATextLayerVC.swift; sourceTree = "<group>"; };
+		8744FB4F2323B70B00F5B661 /* AVPlayerLayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayerVC.swift; sourceTree = "<group>"; };
+		875468F2233BE39C00D3B36C /* diamonds.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = diamonds.mov; sourceTree = "<group>"; };
 		87C9A12D2311545C00E6FFB0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		87C9A12F2311576C00E6FFB0 /* CellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
 		87C9A13123115CE000E6FFB0 /* CAScrollLayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAScrollLayerVC.swift; sourceTree = "<group>"; };
@@ -71,7 +75,9 @@
 				87C9A13123115CE000E6FFB0 /* CAScrollLayerVC.swift */,
 				87C9A1332311671700E6FFB0 /* ScrollingView.swift */,
 				8744FB4D231A7C0B00F5B661 /* CATextLayerVC.swift */,
+				8744FB4F2323B70B00F5B661 /* AVPlayerLayerVC.swift */,
 				87ECD805230DBF7D004BBC01 /* Main.storyboard */,
+				875468F2233BE39C00D3B36C /* diamonds.mov */,
 				87ECD808230DBF7F004BBC01 /* Assets.xcassets */,
 				87ECD80A230DBF7F004BBC01 /* LaunchScreen.storyboard */,
 				87ECD80D230DBF7F004BBC01 /* Info.plist */,
@@ -137,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875468F3233BE39C00D3B36C /* diamonds.mov in Resources */,
 				87ECD80C230DBF7F004BBC01 /* LaunchScreen.storyboard in Resources */,
 				87ECD809230DBF7F004BBC01 /* Assets.xcassets in Resources */,
 				87ECD807230DBF7D004BBC01 /* Main.storyboard in Resources */,
@@ -152,6 +159,7 @@
 			files = (
 				87C9A1342311671700E6FFB0 /* ScrollingView.swift in Sources */,
 				87ECD804230DBF7D004BBC01 /* CALayerVC.swift in Sources */,
+				8744FB502323B70B00F5B661 /* AVPlayerLayerVC.swift in Sources */,
 				87C9A1302311576C00E6FFB0 /* CellInfo.swift in Sources */,
 				87C9A12E2311545C00E6FFB0 /* MainVC.swift in Sources */,
 				87ECD802230DBF7D004BBC01 /* AppDelegate.swift in Sources */,

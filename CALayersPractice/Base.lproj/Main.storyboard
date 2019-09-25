@@ -47,6 +47,7 @@
                         <segue destination="BYZ-38-t0r" kind="show" identifier="toCALayer" id="yEe-nl-KtH"/>
                         <segue destination="dzU-Ln-UFT" kind="show" identifier="toCAScrollLayerVC" id="6cs-Nt-PjZ"/>
                         <segue destination="SIX-ce-Ou2" kind="show" identifier="toCATextLayerVC" id="7s0-1H-xGu"/>
+                        <segue destination="aKP-mK-TvY" kind="show" identifier="toAVPlayerLayerVC" id="5pa-yK-uTw"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYs-Tf-ctS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -192,6 +193,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tkz-no-N9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="744.92753623188412" y="1863.6160714285713"/>
+        </scene>
+        <!--AVPlayerLayer-->
+        <scene sceneID="kNu-uW-X12">
+            <objects>
+                <viewController title="AVPlayerLayer" id="aKP-mK-TvY" customClass="AVPlayerLayerVC" customModule="CALayersPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ZM-Mt-puD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NnH-TB-IlZ">
+                                <rect key="frame" x="30" y="348" width="354" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="B3c-iq-1cJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NnH-TB-IlZ" firstAttribute="centerY" secondItem="3ZM-Mt-puD" secondAttribute="centerY" id="YAN-29-udC"/>
+                            <constraint firstItem="NnH-TB-IlZ" firstAttribute="centerX" secondItem="3ZM-Mt-puD" secondAttribute="centerX" id="gaZ-jy-EER"/>
+                            <constraint firstItem="eGo-bj-f1V" firstAttribute="trailing" secondItem="NnH-TB-IlZ" secondAttribute="trailing" constant="30" id="q6A-ft-raa"/>
+                            <constraint firstItem="NnH-TB-IlZ" firstAttribute="leading" secondItem="eGo-bj-f1V" secondAttribute="leading" constant="30" id="uMa-we-lr1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eGo-bj-f1V"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewForLayer" destination="NnH-TB-IlZ" id="0sB-nV-Idn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8uE-Yd-e5A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="2586"/>
         </scene>
     </scenes>
     <resources>

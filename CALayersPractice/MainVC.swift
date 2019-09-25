@@ -10,7 +10,7 @@ import UIKit
 
 class MainVC: UITableViewController {
     
-    let layers = [CellInfo(title: "CALayer", segueId: "toCALayer"), CellInfo(title: "CAScrollLayer", segueId: "toCAScrollLayerVC"), CellInfo(title: "CATextLayer", segueId: "toCATextLayerVC")]
+    let layers = [CellInfo(title: "CALayer", segueId: "toCALayer"), CellInfo(title: "CAScrollLayer", segueId: "toCAScrollLayerVC"), CellInfo(title: "CATextLayer", segueId: "toCATextLayerVC"), CellInfo(title: "AVPlayerLayer", segueId: "toAVPlayerLayerVC")]
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return layers.count
